@@ -25,6 +25,6 @@ router = routers.DefaultRouter()
 router.register(r'imagens', ImagensViewSet, basename='imagens')
 
 urlpatterns = [
-    path(r'api-v1/', include(router.urls)),
+    path('api/v1/', include(router.urls)),
     path('admin/', admin.site.urls),
 ]

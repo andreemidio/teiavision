@@ -4,4 +4,4 @@ from django.db import models
 
 class Imagens(models.Model):
     imagem =  models.TextField()
-    data = models.DateTimeField(auto_created=True)
+    data = models.DateTimeField(auto_created=True, blank=True,null=True)
