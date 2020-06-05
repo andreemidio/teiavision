@@ -1,19 +1,15 @@
 import base64
-import io
+from io import BytesIO
 
 import cv2
-from apps.imagens.models import Imagens
-from cv2.cv2 import imread
-import base64
-from io import BytesIO
 from PIL import Image
-import cv2
+from apps.imagens.models import Imagens
+
 try:
     from StringIO import StringIO ## for Python 2
 except ImportError:
     from io import StringIO ## for Python 3
 import numpy as np
-from django.http import JsonResponse
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 
