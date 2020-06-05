@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Criar o modelo aqui
 
 class Imagens(models.Model):
     imagem =  models.TextField()
