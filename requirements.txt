@@ -13,7 +13,7 @@ Pillow==7.1.2
 prettyconf==2.1.0
 psycopg2==2.8.5
 pytz==2020.1
-sqlparse==0.3.1
+sqlparse==0.4.4
 uvicorn==0.11.5
 websockets==8.1
 whitenoise==5.1.0
